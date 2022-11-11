@@ -1,11 +1,13 @@
+import styles from './NavBar.module.css'
+
 export function NavBar() {
   return (
-    <div className="nav-bar">
-      <ul>
+    <nav>
+      <ul className={styles.container}>
         <li>About Me</li>
         <li>Skills</li>
         <li>Projects</li>
       </ul>
-    </div>
+    </nav>
   )
 }
