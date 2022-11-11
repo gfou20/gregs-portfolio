@@ -4,8 +4,18 @@ export function Skill() {
   return(
     <div className={styles.container}>
       <h1>Tech Skills</h1>
-      <img className={styles.img} src="icons/react.svg" alt="react-logo" />
-      <img className={styles.img} src="icons/javascript.svg" alt="javascript-logo" />
+      <i class="devicon-bootstrap-plain-wordmark"></i>
+      <i class="devicon-react-original-wordmark"></i>
+      <i class="devicon-javascript-plain"></i>
+      <i class="devicon-python-plain"></i>
+      <i class="devicon-html5-plain-wordmark"></i>
+      <i class="devicon-css3-plain-wordmark"></i>
+      <i class="devicon-django-plain-wordmark"></i>
+      <i class="devicon-docker-plain-wordmark"></i>
+      <i class="devicon-express-original-wordmark"></i>
+      <i class="devicon-nodejs-plain-wordmark"></i>
+      <i class="devicon-mongodb-plain-wordmark"></i>
+      <i class="devicon-postgresql-plain-wordmark"></i>
     </div>
 
   )

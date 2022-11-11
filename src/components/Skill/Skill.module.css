@@ -2,7 +2,14 @@
   text-align: center;
 }
 
-.img {
-  border: 2px solid blue;
-  height: 70px;
+i {
+  font-size:70px;
+  margin: 5px;
+  border-radius: 10px;
 }
+
+i:hover {
+  color: white;
+  background: black;
+}
+
