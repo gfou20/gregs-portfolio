@@ -1,8 +1,9 @@
-import './App.css';
-import { Title } from './components/Title/Title';
-import { NavBar } from './components/NavBar/NavBar';
-import { AboutMe } from './components/AboutMe/AboutMe';
-import { Skill } from './components/Skill/Skill';
+import './App.css'
+import { Title } from './components/Title/Title'
+import { NavBar } from './components/NavBar/NavBar'
+import { AboutMe } from './components/AboutMe/AboutMe'
+import { Skill } from './components/Skill/Skill'
+import { Project } from './components/Project/Project'
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       <Title />
       <NavBar />
       <AboutMe />
-      <Skill />   
+      <Skill /> 
+      <Project />  
     </div>
   )
 }
