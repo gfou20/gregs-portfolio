@@ -1,3 +1,24 @@
 .about {
   text-align: center;
 }
+
+.about img {
+  height: 300px;
+  border-radius: 150px;
+}
+
+.about p {
+  margin: 10px;
+}
+
+.interests {
+  text-align: center;
+}
+
+.interests ul {
+  list-style: none;
+}
+
+.interests li {
+  margin: 10px 50px 10px 0;
+}
