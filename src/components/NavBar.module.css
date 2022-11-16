@@ -1,0 +1,26 @@
+.container {
+  border: 2px solid blue;
+  display: flex;
+}
+
+.container img {
+  height: 50px;
+  border-radius: 30px;
+  margin-top: 3px;
+  margin-left: 3px;
+}
+
+.container ul {
+  display: flex;
+  align-items: flex-end;
+  margin-left: 890px;
+  list-style: none;
+}
+
+.container li {
+  margin-right: 20px;
+}
+
+.container a {
+  color: black;
+}

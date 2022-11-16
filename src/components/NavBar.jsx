@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom"
+import styles from './NavBar.module.css'
 
 function NavBar() {
   return (
-    <nav>
-      <Link to='/'>Gregory Fouchard</Link>
+    <nav className={styles.container}>
+      <Link to='/'><img src='./images/greg.jpg' alt='portfolio' /></Link>
       <ul>
         <li><Link to='/about'>About</Link></li>
         <li><Link to='/contact'>Contact</Link></li>
