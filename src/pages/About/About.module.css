@@ -5,10 +5,17 @@
 .about img {
   height: 300px;
   border-radius: 150px;
+  border: 2px solid black;
 }
 
 .about p {
   margin: 10px;
+  font-weight: bold;
+}
+
+.about hr {
+  border: 1px solid black;
+  width: 40%;
 }
 
 .interests {
@@ -21,4 +28,6 @@
 
 .interests li {
   margin: 10px 50px 10px 0;
+  font-weight: bold;
+  font-size: large;
 }
