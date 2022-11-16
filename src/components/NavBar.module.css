@@ -1,5 +1,4 @@
 .container {
-  border: 2px solid blue;
   display: flex;
 }
 
@@ -23,4 +22,5 @@
 
 .container a {
   color: black;
+  text-decoration: none;
 }

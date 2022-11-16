@@ -2,7 +2,7 @@ import styles from './Skill.module.css'
 
 export function Skill() {
   return(
-    <div className={styles.container}>
+    <section className={styles.skills}>
       <h1>Tech Skills</h1>
       <i class="devicon-bootstrap-plain-wordmark"></i>
       <i class="devicon-react-original-wordmark"></i>
@@ -16,7 +16,7 @@ export function Skill() {
       <i class="devicon-nodejs-plain-wordmark"></i>
       <i class="devicon-mongodb-plain-wordmark"></i>
       <i class="devicon-postgresql-plain-wordmark"></i>
-    </div>
+    </section>
 
   )
 }
