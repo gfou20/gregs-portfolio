@@ -5,9 +5,9 @@
   align-items: center;
 }
 
-.projects a img {
-  border: 2px solid blue;
-  height: 800px;
+.projects img {
+  border: 2px solid #6A040F;
+  height: 600px;
   width: 400px;
   border-radius: 20px;
 }
@@ -15,4 +15,5 @@
 .captions {
   background-color: #03071E;
   border: 2px solid #6A040F;
+  height: 20vh;
 }

@@ -1,4 +1,5 @@
 import styles from './About.module.css'
+import { Skill } from '../../components/Skill/Skill'
 
 function About() {
   return (
@@ -17,6 +18,7 @@ function About() {
           </ul>
         </section>
       </main>
+      <Skill />
     </>
   )
 }

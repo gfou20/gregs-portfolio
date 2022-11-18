@@ -1,4 +1,5 @@
 import styles from './Contact.module.css'
+import { Skill } from '../../components/Skill/Skill'
 
 function Contact() {
   return (
@@ -9,6 +10,7 @@ function Contact() {
         <p>You can view my <a href='https://www.linkedin.com/in/gfouchard/' target='_blank' rel='noreferrer'>LinkedIn</a> or <a href='https://github.com/gfou20' target='_blank' rel='noreferrer'>Github</a> profiles for more.</p>
         <button><a href='./images/Gregory_Fouchard_Resume.pdf' download className={styles.download}>Download Resume</a></button>
       </main>
+      {/* <Skill /> */}
     </>
   )
 }
