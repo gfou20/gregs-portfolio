@@ -7,7 +7,11 @@
 
 .projects a img {
   border: 2px solid blue;
-  height: 400px;
+  height: 800px;
   width: 400px;
   border-radius: 20px;
+}
+
+.captions {
+  background-color: black;
 }
