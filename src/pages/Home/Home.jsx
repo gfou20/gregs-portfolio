@@ -8,6 +8,7 @@ function Home() {
       <header className={styles.main}>
         <h1>Gregory Fouchard</h1>
         <h2>Software Engineer</h2>
+        <img src='./images/gear.png' alt='gear' className={styles.gear} />
         <Link to='/about'><img src='./images/greg.jpg' alt='portfolio' className={styles.home} /></Link>
       </header>
       <section className={styles.skills}>

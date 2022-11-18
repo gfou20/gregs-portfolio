@@ -6,7 +6,27 @@
   box-shadow: #6A040F;
   margin: 0 500px;
   padding: 10px;
+  /* background-image: url("../../../public/images/gear.png");
+  background-repeat: no-repeat;
+  background-position: center; */
   /* display:inline-block; */
+}
+
+.main a {
+  background: transparent;
+}
+
+.gear {
+  animation-name: rotate;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  background-color: transparent;
+}
+
+@keyframes rotate{
+  from{ transform: rotate(-360deg); }
+  to{ transform: rotate(360deg); }
 }
 
 .home {
@@ -14,6 +34,9 @@
   height: 300px;
   width: 300px;
   border-radius: 150px;
+  position: absolute;
+  top: 295px;
+  left: 688px;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
