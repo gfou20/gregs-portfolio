@@ -1,25 +1,23 @@
 .about {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #6A040F;
+  box-shadow: #6A040F;
+  margin: 0 400px;
+  padding: 10px;
 }
 
 .about img {
   height: 300px;
   border-radius: 150px;
-  border: 2px solid black;
+  border: 2px solid #6A040F;
 }
 
 .about p {
   margin: 10px;
   font-weight: bold;
-}
-
-.about hr {
-  border: 1px solid black;
-  width: 40%;
-}
-
-.interests {
-  text-align: center;
 }
 
 .interests ul {
