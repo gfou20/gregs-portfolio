@@ -1,11 +1,6 @@
-.skills {
-  text-align: center;
-  font-size: larger;
-}
-
 i {
   font-size:70px;
-  margin: 5px;
+  margin: 10px;
   border-radius: 10px;
   color: #03071E;
   background: #FCC55F;
@@ -16,3 +11,50 @@ i:hover {
   background: #D00000;
 }
 
+.set1 {
+  position: absolute;
+  top: 370px;
+  left: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.set2 {
+  position: absolute;
+  top: 370px;
+  right: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.set3 {
+  position: absolute;
+  top: 50px;
+  left: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.set4 {
+  position: absolute;
+  top: 50px;
+  right: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.set5 {
+  position: absolute;
+  top: 690px;
+  left: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.set6 {
+  position: absolute;
+  top: 690px;
+  right: 150px;
+  display: flex;
+  flex-direction: column;
+}
