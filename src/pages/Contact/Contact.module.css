@@ -1,6 +1,22 @@
 .contact {
-  border: 2px solid blue;
+  border: 2px solid #6A040F;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 300px;
+  width:500px;
+  padding: 10px;
+}
+
+.contact button {
+  background-color: #DC2F02;
+}
+
+.contact a {
+  text-decoration: none;
+}
+
+.download {
+  color: white;
+  background-color: #DC2F02;
 }

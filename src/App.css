@@ -2,3 +2,11 @@
   background-color: #03071E;
   color: white;
 }
+
+h1, h2 {
+  font-family: 'Press Start 2P', cursive;
+}
+
+p, li {
+  font-family: 'Sora', sans-serif;
+}
