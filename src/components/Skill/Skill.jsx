@@ -17,6 +17,5 @@ export function Skill() {
       <i class="devicon-mongodb-plain-wordmark"></i>
       <i class="devicon-postgresql-plain-wordmark"></i>
     </section>
-
   )
 }
