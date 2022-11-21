@@ -151,6 +151,39 @@
     height: 200px;
     width: 200px;
     top: 390px;
-    left: 610px;
+    left: 615px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .main {
+    height: 450px;
+    width: 500px;
+  }
+  .gear {
+    height: 320px;
+  }
+  .home {
+    height: 180px;
+    width: 180px;
+    top: 390px;
+    left: 310px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .main {
+    height: 350px;
+    width: 380px;
+    text-align: center;
+  }
+  .gear {
+    height: 180px;
+  }
+  .home {
+    height: 100px;
+    width: 100px;
+    top: 392px;
+    left: 200px;
   }
 }
