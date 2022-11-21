@@ -20,6 +20,20 @@
   height: 200px;
 }
 
+@media only screen and (max-width: 1680px) {
+  .projects {
+    width: 700px;
+  }
+  .projects img {
+    height: 600px;
+    width: 700px;
+  }
+  
+  .captions {
+    height: 220px;
+  }
+}
+
 @media only screen and (max-width: 1440px) {
   .projects {
     width: 600px;
