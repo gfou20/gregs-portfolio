@@ -20,4 +20,30 @@
 .download {
   color: white;
   background-color: #DC2F02;
+  font-size: large;
+}
+
+@media only screen and (max-width: 1440px) {
+  .contact {
+    margin-top: 100px;
+    width:550px;
+    padding: 50px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .contact {
+    margin-top: 90px;
+    width:530px;
+    padding: 40px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .contact {
+    text-align: center;
+    margin-top: 20px;
+    width:375px;
+    padding: 40px;
+  }
 }
