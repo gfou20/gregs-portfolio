@@ -1,5 +1,5 @@
 import styles from './Contact.module.css'
-import { Skill } from '../../components/Skill/Skill'
+// import { Skill } from '../../components/Skill/Skill'
 
 function Contact() {
   return (

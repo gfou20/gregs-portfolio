@@ -4,15 +4,51 @@
   align-items: center;
   border: 2px solid #6A040F;
   box-shadow: #6A040F;
-  margin: 0 500px;
-  padding: 10px;
+  margin: 0 615px;
+  padding: 20px;
+  height: 600px;
+  width: 700px;
 }
 
 .main a {
   background: transparent;
 }
 
+.c1 {
+  background: transparent;
+  border: 8px dashed #DC2F02;
+  border-radius: 50%;
+  width: 1200px;
+  height: 950px;
+  position: absolute;
+  top: 20px;
+  left: 360px;
+}
+
+.c2 {
+  background: transparent;
+  border: 8px dashed #F48C06;
+  border-radius: 50%;
+  width: 1400px;
+  height: 1100px;
+  position: absolute;
+  top: -50px;
+  left: 260px;
+}
+
+.c3 {
+  background: transparent;
+  border: 8px dashed #FCC55F;
+  border-radius: 50%;
+  width: 1900px;
+  height: 1100px;
+  position: absolute;
+  top: -50px;
+  left: 3px;
+}
+
 .gear {
+  height: 470px;
   animation-name: rotate;
   animation-duration: 5s;
   animation-iteration-count: infinite;
@@ -27,36 +63,18 @@
 
 .home {
   border: 2px solid #6A040F;
-  height: 300px;
-  width: 300px;
+  height: 250px;
+  width: 250px;
   border-radius: 150px;
   position: absolute;
-  top: 295px;
-  left: 688px;
+  top: 450px;
+  left: 840px;
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
-
-/* @keyframes bounce {
-	0%, 100%, 20%, 50%, 80% {
-		-webkit-transform: translateY(0);
-		-ms-transform:     translateY(0);
-		transform:         translateY(0)
-	}
-	40% {
-		-webkit-transform: translateY(-30px);
-		-ms-transform:     translateY(-30px);
-		transform:         translateY(-30px)
-	}
-	60% {
-		-webkit-transform: translateY(-15px);
-		-ms-transform:     translateY(-15px);
-		transform:         translateY(-15px)
-	}
-} */
 
 .home:hover, .home:focus, .home:active {
   -webkit-animation-name: buzz-out-on-hover;
@@ -68,15 +86,6 @@
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
 }
-
-/* .c1 {
-  background: #03071E;
-  border: 2px solid #6A040F;
-  border-radius: 50%;
-  width: 631px;
-  height: 631px;
-  display:inline-block;
-} */
 
 @-webkit-keyframes buzz-out-on-hover {
   10% {

@@ -1,6 +1,12 @@
+.container {
+  margin: 120px 660px 20px 660px;
+  border-top: 2px solid #6A040F;
+  border-bottom: 2px solid #6A040F;
+}
+
 .container img {
   height: 50px;
-  margin-top: 3px;
+  margin: 10px;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);

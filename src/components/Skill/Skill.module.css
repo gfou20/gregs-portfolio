@@ -13,48 +13,48 @@ i:hover {
 
 .set1 {
   position: absolute;
-  top: 370px;
-  left: 300px;
+  top: 420px;
+  left: 500px;
   display: flex;
   flex-direction: column;
 }
 
 .set2 {
   position: absolute;
-  top: 370px;
-  right: 300px;
+  top: 420px;
+  right: 480px;
   display: flex;
   flex-direction: column;
 }
 
 .set3 {
   position: absolute;
-  top: 50px;
-  left: 150px;
+  top: 20px;
+  left: 50px;
   display: flex;
   flex-direction: column;
 }
 
 .set4 {
   position: absolute;
-  top: 50px;
-  right: 150px;
+  top: 20px;
+  right: 50px;
   display: flex;
   flex-direction: column;
 }
 
 .set5 {
   position: absolute;
-  top: 690px;
-  left: 150px;
+  top: 790px;
+  left: 50px;
   display: flex;
   flex-direction: column;
 }
 
 .set6 {
   position: absolute;
-  top: 690px;
-  right: 150px;
+  top: 790px;
+  right: 50px;
   display: flex;
   flex-direction: column;
 }
