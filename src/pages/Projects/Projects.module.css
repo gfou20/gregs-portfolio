@@ -20,3 +20,45 @@
   height: 200px;
 }
 
+@media only screen and (max-width: 1440px) {
+  .projects {
+    width: 600px;
+  }
+  .projects img {
+    height: 600px;
+    width: 650px;
+  }
+  
+  .captions {
+    height: 220px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .projects {
+    width: 500px;
+  }
+  .projects img {
+    height: 550px;
+    width: 500px;
+  }
+  
+  .captions {
+    height: 255px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .projects {
+    width: 370px;
+  }
+  .projects img {
+    height: 400px;
+    width: 370px;
+  }
+  
+  .captions {
+    height: 200px;
+  }
+}
+
