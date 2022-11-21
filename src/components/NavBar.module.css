@@ -119,6 +119,21 @@
   }
 }
 
+@media only screen and (max-width: 1680px) {
+  .container img {
+    height: 50px;
+  }
+  .container {
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    width: 450px;
+  }
+  .container ul {
+    padding-top: 10px;
+  }
+}
+
 @media only screen and (max-width: 1440px) {
   .container img {
     height: 40px;

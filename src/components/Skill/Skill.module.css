@@ -96,6 +96,57 @@ i:hover {
   left: 3px;
 }
 
+@media only screen and (max-width: 1680px) {
+  i {
+    font-size: 70px;
+    margin: 6px;
+  }
+  .set1 {
+    top: 400px;
+    left: 400px;
+  }
+  .set2 {
+    top: 400px;
+    right: 400px;
+  }
+  .set3 {
+    top: 100px;
+    left: 100px;
+  }
+  .set4 {
+    top: 100px;
+    right: 100px;
+  }
+  .set5 {
+    top: 650px;
+    left: 100px;
+  }
+  .set6 {
+    top: 650px;
+    right: 100px;
+  }
+  .c1 {
+    width: 1200px;
+    height: 900px;
+    top: 20px;
+    left: 250px;
+  }
+  
+  .c2 {
+    width: 1400px;
+    height: 1100px;
+    top: -50px;
+    left: 150px;
+  }
+  
+  .c3 {
+    width: 1900px;
+    height: 1300px;
+    top: -100px;
+    left: -100px;
+  }
+}
+
 @media only screen and (max-width: 1440px) {
   i {
     font-size: 60px;

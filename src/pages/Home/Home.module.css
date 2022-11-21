@@ -139,6 +139,22 @@
   }
 }
 
+@media only screen and (max-width: 1680px) {
+  .main {
+    height: 600px;
+    width: 600px;
+  }
+  .gear {
+    height: 450px;
+  }
+  .home {
+    height: 250px;
+    width: 250px;
+    top: 420px;
+    left: 715px;
+  }
+}
+
 @media only screen and (max-width: 1440px) {
   .main {
     height: 500px;
