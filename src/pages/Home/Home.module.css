@@ -138,3 +138,19 @@
     transform: translateX(-1px) rotate(0);
   }
 }
+
+@media only screen and (max-width: 1440px) {
+  .main {
+    height: 500px;
+    width: 600px;
+  }
+  .gear {
+    height: 350px;
+  }
+  .home {
+    height: 200px;
+    width: 200px;
+    top: 390px;
+    left: 610px;
+  }
+}

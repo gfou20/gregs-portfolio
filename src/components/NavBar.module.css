@@ -118,3 +118,18 @@
     transform: translateX(-1px) rotate(0);
   }
 }
+
+@media only screen and (max-width: 1440px) {
+  .container img {
+    height: 40px;
+  }
+  .container {
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    width: 400px;
+  }
+  .container ul {
+    padding-top: 10px;
+  }
+}

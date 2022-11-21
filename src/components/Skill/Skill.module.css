@@ -95,3 +95,52 @@ i:hover {
   top: -50px;
   left: 3px;
 }
+
+@media only screen and (max-width: 1440px) {
+  i {
+    font-size: 60px;
+    margin: 6px;
+  }
+  .set1 {
+    top: 370px;
+    left: 310px;
+  }
+  .set2 {
+    top: 370px;
+    right: 310px;
+  }
+  .set3 {
+    top: 100px;
+    left: 50px;
+  }
+  .set4 {
+    top: 100px;
+    right: 50px;
+  }
+  .set5 {
+    top: 550px;
+    left: 50px;
+  }
+  .set6 {
+    top: 550px;
+    right: 50px;
+  }
+  .c1 {
+    width: 1000px;
+    height: 800px;
+    top: 5px;
+    left: 210px;
+  }
+  .c2 {
+    width: 1200px;
+    height: 900px;
+    top: -40px;
+    left: 100px;
+  }
+  .c3 {
+    width: 1400px;
+    height: 1000px;
+    top: -80px;
+    left: 10px;
+  }
+}
