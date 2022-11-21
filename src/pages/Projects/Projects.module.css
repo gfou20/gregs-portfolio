@@ -3,17 +3,20 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 750px;
+  margin: 0 auto;
 }
 
 .projects img {
   border: 2px solid #6A040F;
   height: 600px;
-  width: 400px;
+  width: 750px;
   border-radius: 20px;
 }
 
 .captions {
   background-color: #03071E;
   border: 2px solid #6A040F;
-  height: 20vh;
+  height: 200px;
 }
+

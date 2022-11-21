@@ -4,7 +4,7 @@
   align-items: center;
   border: 2px solid #6A040F;
   box-shadow: #6A040F;
-  margin: 0 615px;
+  margin: 0 auto;
   padding: 20px;
   height: 600px;
   width: 700px;
@@ -12,39 +12,6 @@
 
 .main a {
   background: transparent;
-}
-
-.c1 {
-  background: transparent;
-  border: 8px dashed #DC2F02;
-  border-radius: 50%;
-  width: 1200px;
-  height: 950px;
-  position: absolute;
-  top: 20px;
-  left: 360px;
-}
-
-.c2 {
-  background: transparent;
-  border: 8px dashed #F48C06;
-  border-radius: 50%;
-  width: 1400px;
-  height: 1100px;
-  position: absolute;
-  top: -50px;
-  left: 260px;
-}
-
-.c3 {
-  background: transparent;
-  border: 8px dashed #FCC55F;
-  border-radius: 50%;
-  width: 1900px;
-  height: 1100px;
-  position: absolute;
-  top: -50px;
-  left: 3px;
 }
 
 .gear {
@@ -63,12 +30,12 @@
 
 .home {
   border: 2px solid #6A040F;
-  height: 250px;
-  width: 250px;
+  height: 260px;
+  width: 260px;
   border-radius: 150px;
   position: absolute;
   top: 450px;
-  left: 840px;
+  left: 820px;
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);

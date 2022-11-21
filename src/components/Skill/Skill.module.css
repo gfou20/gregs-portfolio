@@ -14,7 +14,7 @@ i:hover {
 .set1 {
   position: absolute;
   top: 420px;
-  left: 500px;
+  left: 480px;
   display: flex;
   flex-direction: column;
 }
@@ -57,4 +57,41 @@ i:hover {
   right: 50px;
   display: flex;
   flex-direction: column;
+}
+
+.z span{
+  z-index: -1;
+}
+
+.c1 {
+  background: transparent;
+  border: 8px dashed #DC2F02;
+  border-radius: 50%;
+  width: 1200px;
+  height: 950px;
+  position: absolute;
+  top: 20px;
+  left: 360px;
+}
+
+.c2 {
+  background: transparent;
+  border: 8px dashed #F48C06;
+  border-radius: 50%;
+  width: 1400px;
+  height: 1100px;
+  position: absolute;
+  top: -50px;
+  left: 260px;
+}
+
+.c3 {
+  background: transparent;
+  border: 8px dashed #FCC55F;
+  border-radius: 50%;
+  width: 1900px;
+  height: 1100px;
+  position: absolute;
+  top: -50px;
+  left: 3px;
 }
