@@ -72,6 +72,8 @@ i:hover {
   position: absolute;
   top: 20px;
   left: 360px;
+  -webkit-animation: rotateY 5s infinite linear;
+  animation: rotateY 5s infinite linear;
 }
 
 .c2 {
@@ -83,6 +85,8 @@ i:hover {
   position: absolute;
   top: -50px;
   left: 260px;
+  -webkit-animation: rotateY 10s infinite linear;
+  animation: rotateY 10s infinite linear;
 }
 
 .c3 {
@@ -94,6 +98,15 @@ i:hover {
   position: absolute;
   top: -50px;
   left: 3px;
+  -webkit-animation: rotateY 15s infinite linear;
+  animation: rotateY 15s infinite linear;
+}
+
+@-webkit-keyframes rotateY {
+  to { -webkit-transform: rotateY(360deg); }
+}
+@keyframes rotateY {
+  to { transform: rotateY(360deg); }
 }
 
 @media only screen and (max-width: 1680px) {
