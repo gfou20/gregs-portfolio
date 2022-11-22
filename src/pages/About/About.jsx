@@ -6,7 +6,7 @@ function About() {
     <>
       <main className={styles.about}>
         <h1>About</h1>
-        <img src='./images/greg.jpg' alt='portfolio' />
+        <img src='./images/greg.png' alt='portfolio' />
         <p>I am a driven software engineer using my experience in customer service and health administration to deliver a smooth and impactful user-friendly experience. I thrive in dynamic work environments and am always looking for new opportunities to learn and grow.</p>
         <section className={styles.interests}>
           <h2>Interests</h2>

@@ -11,7 +11,7 @@ function Home() {
           <img src="./images/gear.png" alt="gear" className={styles.gear} />
           <Link to="/about">
             <img
-              src="./images/greg.jpg"
+              src="./images/greg.png"
               alt="portfolio"
               className={styles.home}
             />
